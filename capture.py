@@ -1,5 +1,7 @@
 """
 此文件用于抓取网页评论信息，获取的Html源码后续使用extract.py提取有效信息
+此代码的写成参考了CSDN博主「举个栗子不容易」的原创文章，在这里对他的工作表示感谢，并附上原文链接。
+原文链接：https://blog.csdn.net/qq_32201423/article/details/91451391
 """
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
