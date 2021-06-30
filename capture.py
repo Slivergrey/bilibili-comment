@@ -12,7 +12,7 @@ import re
 pattern_stop = re.compile(r'<div class="loading-state">没有更多评论</div>')
 #创建chrome浏览器驱动，无头模式（后台运行，不需要的话可以把headless那行注释掉）
 chrome_options = Options()
-chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--headless')
 chrome_options.add_argument('window-size=1920x1080')
 chrome_options.add_argument('--start-maximized')
 driver = webdriver.Chrome("C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe", options=chrome_options)
